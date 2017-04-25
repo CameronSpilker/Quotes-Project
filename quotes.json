@@ -1,0 +1,472 @@
+{
+    "quotes": [
+        {
+            "text": "Most software today is very much like an Egyptian pyramid with millions of bricks piled on top of each other, with no structural integrity, but just done by brute force and thousands of slaves.",
+            "author": {
+                "first_name": "Alan",
+                "last_name": "Kay"
+            },
+            "tags": [
+                "good",
+                "best",
+                "productive"
+            ]
+        },
+        {
+            "text": "It's not a bug - it's an undocumented feature.",
+            "author": {
+                "first_name": "",
+                "last_name": "Anonymous"
+            },
+            "tags": [
+                "good",
+                "programmer",
+                "best"
+            ]
+        },
+        {
+            "text": "One man's crappy software is another man's full time job.",
+            "author": {
+                "first_name": "Jessica",
+                "last_name": "Gaston"
+            },
+            "tags": [
+                "best",
+                "make",
+                "productive"
+            ]
+        },
+        {
+            "text": "Measuring programming progress by lines of code is like measuring aircraft building progress by weight.",
+            "author": {
+                "first_name": "Bill",
+                "last_name": "Gates"
+            },
+            "tags": [
+                "bugs",
+                "software",
+                "way"
+            ]
+        },
+        {
+            "text": "When debugging, novices insert corrective code; experts remove defective code.",
+            "author": {
+                "first_name": "Richard",
+                "last_name": "Pattis"
+            },
+            "tags": [
+                "programmer",
+                "software",
+                "art"
+            ]
+        },
+        {
+            "text": "It's a curious thing about our industry: not only do we not learn from our mistakes, we also don't learn from our successes.",
+            "author": {
+                "first_name": "Keith",
+                "last_name": "Braithwaite"
+            },
+            "tags": [
+                "good",
+                "make",
+                "software"
+            ]
+        },
+        {
+            "text": "A good programmer is someone who always looks both ways before crossing a one-way street.",
+            "author": {
+                "first_name": "Doug",
+                "last_name": "Linder"
+            },
+            "tags": [
+                "write",
+                "people",
+                "way"
+            ]
+        },
+        {
+            "text": "Ready, fire, aim: the fast approach to software development. Ready, aim, aim, aim, aim: the slow approach to software development.",
+            "author": {
+                "first_name": "",
+                "last_name": "Anonymous"
+            },
+            "tags": [
+                "make",
+                "art",
+                "bugs"
+            ]
+        },
+        {
+            "text": "There are two ways to write error-free programs; only the third one works.",
+            "author": {
+                "first_name": "Alan J.",
+                "last_name": "Perlis"
+            },
+            "tags": [
+                "good",
+                "make",
+                "people"
+            ]
+        },
+        {
+            "text": "I think Microsoft named .Net so it wouldn't show up in a Unix directory listing.",
+            "author": {
+                "first_name": "",
+                "last_name": "Oktal"
+            },
+            "tags": [
+                "programmer",
+                "make",
+                "way"
+            ]
+        },
+        {
+            "text": "People think that computer science is the art of geniuses but the actual reality is the opposite, just many people doing things that build on each other, like a wall of mini stones.",
+            "author": {
+                "first_name": "Donald",
+                "last_name": "Knuth"
+            },
+            "tags": [
+                "best",
+                "write",
+                "software"
+            ]
+        },
+        {
+            "text": "Good code is its own best documentation. As you're about to add a comment, ask yourself, 'How can I improve the code so that this comment isn't needed?'",
+            "author": {
+                "first_name": "Steve",
+                "last_name": "McConnell"
+            },
+            "tags": [
+                "programmer",
+                "make",
+                "art"
+            ]
+        },
+        {
+            "text": "Software undergoes beta testing shortly before it's released. Beta is Latin for \"still doesn't work\".",
+            "author": {
+                "first_name": "",
+                "last_name": "Anonymous"
+            },
+            "tags": [
+                "good",
+                "software",
+                "bugs"
+            ]
+        },
+        {
+            "text": "Before software can be reusable it first has to be usable.",
+            "author": {
+                "first_name": "Ralph",
+                "last_name": "Johnson"
+            },
+            "tags": [
+                "software",
+                "art",
+                "bugs"
+            ]
+        },
+        {
+            "text": "Don't worry if it doesn't work right. If everything did, you'd be out of a job.",
+            "author": {
+                "first_name": "Mosher's Law of Software",
+                "last_name": "Engineering"
+            },
+            "tags": [
+                "good",
+                "best",
+                "productive"
+            ]
+        },
+        {
+            "text": "If debugging is the process of removing software bugs, then programming must be the process of putting them in.",
+            "author": {
+                "first_name": "Edsger",
+                "last_name": "Dijkstra"
+            },
+            "tags": [
+                "programmer",
+                "make",
+                "best"
+            ]
+        },
+        {
+            "text": "Nine people can't make a baby in a month. [regarding the addition of more programmers to get a project completed faster]",
+            "author": {
+                "first_name": "Fred",
+                "last_name": "Brooks"
+            },
+            "tags": [
+                "best",
+                "people",
+                "productive"
+            ]
+        },
+        {
+            "text": "If builders built buildings the way programmers wrote programs, then the first woodpecker that came along wound destroy civilization.",
+            "author": {
+                "first_name": "Gerald",
+                "last_name": "Weinberg"
+            },
+            "tags": [
+                "programmer",
+                "make",
+                "bugs"
+            ]
+        },
+        {
+            "text": "C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do, it blows away your whole leg.",
+            "author": {
+                "first_name": "Bjarne",
+                "last_name": "Stroustrup"
+            },
+            "tags": [
+                "art",
+                "people",
+                "bugs"
+            ]
+        },
+        {
+            "text": "The best performance improvement is the transition from the nonworking state to the working state.",
+            "author": {
+                "first_name": "J.",
+                "last_name": "Osterhout"
+            },
+            "tags": [
+                "make",
+                "best",
+                "art"
+            ]
+        },
+        {
+            "text": "Computer science education cannot make anybody an expert programmer any more than studying brushes and pigment can make somebody an expert painter.",
+            "author": {
+                "first_name": "Eric S.",
+                "last_name": "Raymond"
+            },
+            "tags": [
+                "make",
+                "art",
+                "productive"
+            ]
+        },
+        {
+            "text": "There are only two kinds of programming languages: those people always ***** about and those nobody uses.",
+            "author": {
+                "first_name": "Bjarne",
+                "last_name": "Stroustrup"
+            },
+            "tags": [
+                "good",
+                "best",
+                "art"
+            ]
+        },
+        {
+            "text": "One of my most productive days was throwing away 1000 lines of code.",
+            "author": {
+                "first_name": "Ken",
+                "last_name": "Thompson"
+            },
+            "tags": [
+                "make",
+                "best",
+                "way"
+            ]
+        },
+        {
+            "text": "Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the universe trying to produce bigger and better idiots. So far, the universe is winning.",
+            "author": {
+                "first_name": "Rick",
+                "last_name": "Cook"
+            },
+            "tags": [
+                "programmer",
+                "software",
+                "people"
+            ]
+        },
+        {
+            "text": "Deleted code is debugged code.",
+            "author": {
+                "first_name": "Jeff",
+                "last_name": "Sickel"
+            },
+            "tags": [
+                "good",
+                "art",
+                "productive"
+            ]
+        },
+        {
+            "text": "The problem with using C++ ... is that there's already a strong tendency in the language to require you to know everything before you can do anything.",
+            "author": {
+                "first_name": "Larry",
+                "last_name": "Wall"
+            },
+            "tags": [
+                "make",
+                "people",
+                "way"
+            ]
+        },
+        {
+            "text": "Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program.",
+            "author": {
+                "first_name": "Linus",
+                "last_name": "Torvalds"
+            },
+            "tags": [
+                "programmer",
+                "software",
+                "people"
+            ]
+        },
+        {
+            "text": "The cheapest, fastest, and most reliable components are those that aren't there.",
+            "author": {
+                "first_name": "Gordon",
+                "last_name": "Bell"
+            },
+            "tags": [
+                "write",
+                "art",
+                "bugs"
+            ]
+        },
+        {
+            "text": "Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.",
+            "author": {
+                "first_name": "Martin",
+                "last_name": "Golding"
+            },
+            "tags": [
+                "good",
+                "way",
+                "bugs"
+            ]
+        },
+        {
+            "text": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
+            "author": {
+                "first_name": "Martin",
+                "last_name": "Fowler"
+            },
+            "tags": [
+                "good",
+                "make",
+                "art"
+            ]
+        },
+        {
+            "text": "Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.",
+            "author": {
+                "first_name": "Brian W.",
+                "last_name": "Kernighan"
+            },
+            "tags": [
+                "write",
+                "people",
+                "way"
+            ]
+        },
+        {
+            "text": "Blame doesn't fix bugs",
+            "author": {
+                "first_name": "",
+                "last_name": "Unknown"
+            },
+            "tags": [
+                "write",
+                "art",
+                "bugs"
+            ]
+        },
+        {
+            "text": "Walking on water and developing software from a specification are easy if both are frozen.",
+            "author": {
+                "first_name": "Edward V",
+                "last_name": "Berard"
+            },
+            "tags": [
+                "write",
+                "software",
+                "productive"
+            ]
+        },
+        {
+            "text": "Without requirements or design, programming is the art of adding bugs to an empty text file.",
+            "author": {
+                "first_name": "Louis",
+                "last_name": "Srygley"
+            },
+            "tags": [
+                "good",
+                "art",
+                "productive"
+            ]
+        },
+        {
+            "text": "The trouble with programmers is that you can never tell what a programmer is doing until it's too late.",
+            "author": {
+                "first_name": "Seymour",
+                "last_name": "Cray"
+            },
+            "tags": [
+                "programmer",
+                "software",
+                "people"
+            ]
+        },
+        {
+            "text": "The best method for accelerating a computer is the one that boosts it by 9.8 m/s2.",
+            "author": {
+                "first_name": "",
+                "last_name": "Anonymous"
+            },
+            "tags": [
+                "good",
+                "write",
+                "people"
+            ]
+        },
+        {
+            "text": "The best thing about a boolean is even if you are wrong, you are only off by a bit.",
+            "author": {
+                "first_name": "",
+                "last_name": "Anonymous"
+            },
+            "tags": [
+                "make",
+                "software",
+                "art"
+            ]
+        },
+        {
+            "text": "There are two ways of constructing a software design: One way is to make it so simple that there are obviously no deficiencies, and the other way is to make it so complicated that there are no obvious deficiencies. The first method is far more difficult.",
+            "author": {
+                "first_name": "C.A.R.",
+                "last_name": "Hoare"
+            },
+            "tags": [
+                "make",
+                "write",
+                "productive"
+            ]
+        },
+        {
+            "text": "In order to understand recursion, one must first understand recursion.",
+            "author": {
+                "first_name": "",
+                "last_name": "Anonymous"
+            },
+            "tags": [
+                "good",
+                "productive",
+                "way"
+            ]
+        }
+    ]
+}

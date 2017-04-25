@@ -1,0 +1,12 @@
+*.log
+*.pot
+*.pyc
+__pycache__
+.DS_Store
+.cached_templates/
+.sass-cache/
+*.css.map
+django.mo
+venv/
+.tm_properties
+.python-version
