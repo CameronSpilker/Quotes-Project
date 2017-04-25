@@ -14,19 +14,18 @@
 
     ## Table Here
 %if qry:
-	<table id="myTable" class="tablesorter">
-	<thread>
+	<table id="myTable" class='tablesorter'>
+	<thead>
 		<tr>
-			<th>ID</th>
-			<th>Author</th>
-			<th>Quote</th>
-			<th>Tags</th>
+			<th id='id_header'>ID</th>
+			<th id='author_header'>Author</th>
+			<th id='quote_header'>Quote</th>
+			<th id='tags_header'>Tags</th>
 		</tr>
-	</thread>
+	</thead>
 	<tbody>
 	%for q in qry:
 		<tr>
-
 			<td>${q.id}</td>
 			<td>${q.author.first_name} ${q.author.last_name}</td>
 			<td style="font-style: italic ">'${q.text}'</td>
