@@ -1,9 +1,49 @@
 <%inherit file="base.htm" />
 
 <%block name="content">
-
+<div class="header">
+<form action="" method="post">
+	${ csrf_input } 	
+	${ form.as_p() }
+	<button type="submit"> Search </button> 
+</form>
+</div>
+<br>
+<br>
     ## Form Here
 
     ## Table Here
+%if qry:
+	<table id="myTable" class="tablesorter">
+	<thread>
+		<tr>
+			<th>ID</th>
+			<th>Author</th>
+			<th>Quote</th>
+			<th>Tags</th>
+		</tr>
+	</thread>
+	<tbody>
+	%for q in qry:
+		<tr>
+
+			<td>${q.id}</td>
+			<td>${q.author.first_name} ${q.author.last_name}</td>
+			<td style="font-style: italic ">'${q.text}'</td>
+			<td>
+			%for qt in q.quote_tags.all():
+				${qt.tag.text};
+			%endfor
+			</td>
+		</tr>
+	%endfor
+	</tbody>
+	</table>
+%else:
+<div style="text-align: center">
+	Sorry no results, try again.
+
+</div>
+%endif
 
 </%block>
