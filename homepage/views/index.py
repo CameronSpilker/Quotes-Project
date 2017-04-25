@@ -23,13 +23,30 @@ def process_request(request):
             if not s:
                 print('empty string')
                 qry = hmod.Quote.objects.all()
-            else:
+            elif len(s) == 1:
                 if choice == 'and':
                     qry = hmod.Quote.objects.annotate(search=SearchVector('author__first_name', 'author__last_name') + SearchVector('quote_tags__quote__text') + SearchVector('quote_tags__tag__text')).filter(Q(search=str(s))).distinct('id')
-                # else:
-                #     print('in the else', s)
-                #     qry = hmod.Quote.objects.annotate(search=SearchVector('author__first_name', 'author__last_name') + SearchVector('quote_tags__quote__text') + SearchVector('quote_tags__tag__text')).filter(Q(search=str(s[0])) | Q(search=str(s[1]))).distinct('id')
-                #     print('here is the results', qry)
+                else:
+                    print('in the else', s)
+                    qry = hmod.Quote.objects.annotate(search=SearchVector('author__first_name', 'author__last_name') + SearchVector('quote_tags__quote__text') + SearchVector('quote_tags__tag__text')).filter(Q(search=str(s))).distinct('id')
+                    print('here is the results', qry)
+            elif len(s) == 2:
+                if choice == 'and':
+                    qry = hmod.Quote.objects.annotate(search=SearchVector('author__first_name', 'author__last_name') + SearchVector('quote_tags__quote__text') + SearchVector('quote_tags__tag__text')).filter(Q(search=str(s[0])) & Q(search=str(s[1]))).distinct('id')
+                else:
+                    print('in the else', s)
+                    qry = hmod.Quote.objects.annotate(search=SearchVector('author__first_name', 'author__last_name') + SearchVector('quote_tags__quote__text') + SearchVector('quote_tags__tag__text')).filter(Q(search=str(s[0])) | Q(search=str(s[1]))).distinct('id')
+                    print('here is the results', qry)
+            elif len(s) == 3:
+                if choice == 'and':
+                    qry = hmod.Quote.objects.annotate(search=SearchVector('author__first_name', 'author__last_name') + SearchVector('quote_tags__quote__text') + SearchVector('quote_tags__tag__text')).filter(Q(search=str(s[0])) & Q(search=str(s[1])) & Q(search=str(s[2]))).distinct('id')
+                else:
+                    print('in the else', s)
+                    qry = hmod.Quote.objects.annotate(search=SearchVector('author__first_name', 'author__last_name') + SearchVector('quote_tags__quote__text') + SearchVector('quote_tags__tag__text')).filter(Q(search=str(s[0])) | Q(search=str(s[1])) | Q(search=str(s[2]))).distinct('id')
+                    print('here is the results', qry)
+            elif len(s) > 3:
+                    qry = None
+
         else:
             print('NOT VALID')
         context = {'form': form,
