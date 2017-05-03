@@ -1,6 +1,7 @@
 Quotes Project -- Users can search through quotes by typing keywords or phrases
 
 Searching two seperate words with an OR or AND search
+https://cloud.githubusercontent.com/assets/22181707/25665320/7a1caddc-2fda-11e7-9577-6ff83c835b2e.gif
 <br>
 <br>
 <a href="https://imgflip.com/gif/1oc9cx"><img src="https://i.imgflip.com/1oc9cx.gif" title="made at imgflip.com" width="480" height="248"/></a>
