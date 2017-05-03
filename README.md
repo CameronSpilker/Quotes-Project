@@ -1,33 +1,4 @@
-<<<<<<< HEAD
-# FinalExam2017
-=======
-# README #
+Quotes Project -- Users can search through quotes by typing keywords or phrases
 
-This README would normally document whatever steps are necessary to get your application up and running.
-
-### What is this repository for? ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
->>>>>>> ed63ad858613d04aec2dc8fc545c3aa1a38783b3
+Searching two seperate words with an OR or AND search
+<a href="https://imgflip.com/gif/1oc9cx"><img src="https://i.imgflip.com/1oc9cx.gif" title="made at imgflip.com"/></a>
